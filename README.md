@@ -41,10 +41,33 @@ export PATH="$PATH:/path/to/install"
 ```
 This way you can use Calcha from anywhere in the filesystem
 
-## Usage examples
+## Usage Examples
+### Basics
+At the very basic, Calcha can be a calculator. Simply write a script - let's call this one `add.calcha`:
+```c
+5 4 +
+```
+Then, call the compiler and pass `add.calcha` to be compiled:
+```sh
+./ccalcha add.calcha
+```
+By default, `ccalcah` will run the resulting binary and provide you with the answer to the mathematical equation:
+```sh
+9
+```
+
+### Defining New Functions
+
+### Optimizing Mathematical Processes
+
+### Taking Advantage of New Hardware
 
 ## Status
-Not implemented
+This project is not implemented! Here is an outline of our following goals:
+1. Implement basic mathematical operations (e.g. addition, subtraction, multiplication, division)
+2. Allow for defining and using custom functions
+3. Allow overriding of mathematical implementations
+4. Allow for using specialized hardware
 
 ## Contact
 Email: ajh728@nau.edu
