@@ -34,3 +34,11 @@ In the case new infrastructure **must** be defined, then a separate issue and pu
 
 ## Bug Reporting
 If you encounter a bug while using Calcha, please check the issue tracker to make sure others have not encountered the same bug. If there is not other report, then please create a new issue following the guidelines stated above. Please mark your issue with the 'bug' label.
+
+
+## Guidelines and Expectations
+Free software is first and foremost a collaborative effort based on sharing to maximize our leisure time. Therefore, free software is a polyvocal organization of human relations where no solution is taken as better than another. Everyone's contribution is welcome and encouraged to achieve full utilization of our computers.
+
+Thusly, every person must be treated with dignity and respect. This being said, there will be no tolerance for features, fixes, or rhetoric which will prevent a person's access and use of Calcha. Hostility toward other contributors is grounds for expulsion from the community.
+
+Because every part of our computers is determined by political forces - the programming languages, the operating system, the text editor, etc. - which we, alone, do not have the ability to change, political commentary will be grounds for suspension from our community. This being said, this community values the usability of Calcha and strives to allow everyone to make use of Calcha, so companies and government entities do not want, or actively try, to enclose the commons of software for profit and power. Therefore, the members of this community may not actively try to support technology such as a specific operating system. This does not mean others are not welcome to ask for support, but this does mean the support may need to come from users not already in our community.
