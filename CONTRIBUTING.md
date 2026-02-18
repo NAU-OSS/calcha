@@ -30,3 +30,7 @@ In the case of adding new features, the documentation will be updated with infor
 Calcha has strongly defined error infrastructure to support readably verbose errors and documentation when things go wrong. Therefore, please extend the existing infrastructure first. If new infrastructure is needed, this will be defined and hashed out in the comments of the respective pull request to ensure the new infrastructure **must** be defined, and to determine it will not interfere with the existing infrastructure.
 
 In the case new infrastructure **must** be defined, then a separate issue and pull request will be started to specifically deligate resources toward developing and documenting the infrastructure. This way, conversations do not become mixed into a single, long conversation thread. The infrastructure to support a new feature (if it is determined is needed) **will be committed first**, and then the new feature will follow.
+
+
+## Bug Reporting
+If you encounter a bug while using Calcha, please check the issue tracker to make sure others have not encountered the same bug. If there is not other report, then please create a new issue following the guidelines stated above. Please mark your issue with the 'bug' label.
