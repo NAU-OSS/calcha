@@ -17,5 +17,16 @@ Please make sure to look in the issue tracker to make sure your feature has not 
 ## Code Style or Formatting Guidelines
 When extending the capability of the compiler, you will be writing Hare. Please refer to the style guide for the Hare Programming Lange [here](https://harelang.org/documentation/usage/style.html) for more information on code style.
 
+
 ## Testing Requirements
 Testing requirements are enforced through GitHub Actions. If you are making a pull request which deals with an existing piece of the codebase, it is very likely your changes will be tested when pushed. However, if you are adding a new feature, then creating an action to test your code will be discussed and iterated upon as discussion progresses. This is because of the uniqueness of the problems we are trying to solve within this community. Please feel free to submit your own tests before code review to facilitate understanding and discussion of the feature.
+
+
+## Documentation Standards
+It is expected that documentation is updated when fixes are issued. This means return values, edge-cases, errors, etc. are documented in documentation for a specific function.
+
+In the case of adding new features, the documentation will be updated with information about the functions and constructs needed to support the new feature.
+
+Calcha has strongly defined error infrastructure to support readably verbose errors and documentation when things go wrong. Therefore, please extend the existing infrastructure first. If new infrastructure is needed, this will be defined and hashed out in the comments of the respective pull request to ensure the new infrastructure **must** be defined, and to determine it will not interfere with the existing infrastructure.
+
+In the case new infrastructure **must** be defined, then a separate issue and pull request will be started to specifically deligate resources toward developing and documenting the infrastructure. This way, conversations do not become mixed into a single, long conversation thread. The infrastructure to support a new feature (if it is determined is needed) **will be committed first**, and then the new feature will follow.
