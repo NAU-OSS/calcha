@@ -1,6 +1,10 @@
 # calcha
 One-pass mathematical equation parser written in the Hare Programming Language.
 
+Calcha is intended for computational hobbyist, professional, and researchers with an interest in accelerating mathematical processes using high performance hardware. Instead of using a general purpose programming language such as C, Python, etc., Calcha will take raw mathematical equations (written in reverse polish notation) and will do the work of translating the equations for the computer.
+
+The advantage of Calcha is by passing the slowdown incurred by using languages such Python, and removes the need to possess any other knowledge about the computer to investigate mathematical inquery. On the other hand, Calcha is highly extensible, by allowing implementation of new code to carry out a mathematical process. Thus, the user is able to take full advantage of new hardware or to optimize existing processes to speedup a mathematical process.
+
 ## Installation
 ### Prerequisite Software
 Before you are able to install the Calcha compiler, you will need to install two other pieces of software:
