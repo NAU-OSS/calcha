@@ -16,3 +16,6 @@ Please make sure to look in the issue tracker to make sure your feature has not 
 
 ## Code Style or Formatting Guidelines
 When extending the capability of the compiler, you will be writing Hare. Please refer to the style guide for the Hare Programming Lange [here](https://harelang.org/documentation/usage/style.html) for more information on code style.
+
+## Testing Requirements
+Testing requirements are enforced through GitHub Actions. If you are making a pull request which deals with an existing piece of the codebase, it is very likely your changes will be tested when pushed. However, if you are adding a new feature, then creating an action to test your code will be discussed and iterated upon as discussion progresses. This is because of the uniqueness of the problems we are trying to solve within this community. Please feel free to submit your own tests before code review to facilitate understanding and discussion of the feature.
