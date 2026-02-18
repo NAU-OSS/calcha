@@ -11,6 +11,13 @@ More verbose installation instructions for QBE will come soon, but for now pleas
 2. [Install Hare Programming Language](https://harelang.org/documentation/install/index.html) -
 Please note there is third-party support for MacOS, but this is considerably harder than spinning a quick VM
 
+### Cloning Calcha Repository
+Before building the Calcha compiler, you will need to clone the repository to your local system:
+```sh
+git clone --depth=1 git@github.com:NAU-OSS/calcha.git
+cd calcha
+```
+
 ### Install Calcha On Your System
 Once you have obtained the above software, installing Calcha is as easy as the following command:
 ```sh
